@@ -1,0 +1,6 @@
+.manageProductsTable{
+    border:1px solid red;
+    padding: 8% 5% 10% 5%;
+    margin-bottom: -15%;
+    background-image: url('../../images/packageDetailsBG.jpg');
+}

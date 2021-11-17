@@ -1,0 +1,67 @@
+.placeOrderShow .eachPlaceOrderShow{
+ 
+    padding: 5% 4%;
+    margin-top: 0%;
+    background-image: url('../../images/packageDetailsBG.jpg');
+    box-shadow: 0px 0px 20px rgb(219, 217, 221);
+    color: #524552;
+    margin-bottom: -13%;
+ }
+
+ .placeOrderShow .PlaceOrderTitle .title{
+    color: #ff5d22;
+ }
+.x{
+    display: none;
+}
+ .placeOrderForm{
+    border: 1px solid rgb(206, 206, 219);
+    box-shadow: 0px 0px 20px gray;
+    margin: 5%;
+    padding: 3%;
+ }
+
+.placeOrderShow .btnSection{
+    background-color: #ff5d22;
+    color: aliceblue;
+    border: 1.5px solid #ff5d22;
+    padding: .7% 5%;
+    font-size: medium;
+    border-radius: 7px;
+   
+}
+.placeOrderShow .btnSection:hover{
+    background-color: #f1f2f4;
+    border: 1.5px solid #ff5d22;
+    color: #ff5d22;
+}
+
+
+.placeOrderShow  .cart{
+    border-left: 1px solid rgb(175, 168, 168);
+
+    padding: 2%;
+}
+.placeOrderShow  .cartDetails{
+
+    padding-left: 7%;
+}
+.placeOrderShow  .cartDetails .price{
+    padding-left: 36%;
+}
+.placeOrderShow .total{
+    margin-left: 22%;
+}
+.placeOrderShow .discount{
+    margin-left: 11.5%;
+}
+.placeOrderShow .eachPlaceOrderShow .placeOrderDetails{
+    text-align: start;
+}
+.placeOrderShow .eachPlaceOrderShow label{
+    font-size: large;
+    
+}
+.placeOrderShow .eachPlaceOrderShow .days{
+    margin-top: 1.3%;
+}

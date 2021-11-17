@@ -1,0 +1,6 @@
+.extraImgPart .extraImgSection{
+    background: url('../../images/extraImgSection.jpg') center;
+    background-size: cover;
+    opacity: 0.9;
+    min-height: 500px;
+}

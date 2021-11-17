@@ -1,0 +1,33 @@
+.ContactPart{
+ 
+    background-color: rgb(58, 58, 53);
+    color: wheat;
+    padding: 2%;
+}
+
+.ContactPart .y{
+    border: 1px solid rgb(0, 255, 157);
+    height: 100%; 
+}
+.ContactImg{
+    /* height: 300px; */
+}
+.ContactImg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.ContactDetails span{
+    color: rgb(228, 40, 7);
+}
+.ContactDetails{
+    padding: 10% 5% 5% 10%;
+    text-align: start;
+}
+.ContactDetails .mailUs{
+    width: 58%;
+}
+.ContactDetails h4{
+    color: rgb(92, 255, 71);
+}

@@ -1,0 +1,33 @@
+
+.carouselImg{
+   height: 770px;
+  
+}
+
+.carouselImg img{
+    height: 100%;
+    width: 100%;
+ }
+
+
+ .newOrderReq{
+     background-color: rgb(226, 226, 223);
+     border-radius: 7px;
+     padding: 5%;
+     margin-top: 7%;
+ }
+ .newOrdersTitle{
+    margin: 0% 0% 3% 0%;
+    color: rgb(25, 26, 32);
+    text-align: start;
+}
+.orderDisplay{
+    /* margin-top: 30%; */
+}
+.allOrderDisplay{
+    background-image: url('../../images/packageDetailsBG.jpg');
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 7px;
+    padding: 5%;
+    margin-bottom: 5%;
+}

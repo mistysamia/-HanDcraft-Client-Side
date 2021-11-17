@@ -1,0 +1,22 @@
+.addAdminShow .eachAddAdminShow{
+    margin-bottom: -15%;
+    padding: 5% 4%;
+    margin-top: 5%;
+    background-image: url('../../images/packageDetailsBG.jpg');
+    box-shadow: 0px 0px 20px rgb(219, 217, 221);
+    color: #524552;
+ }
+ .addAdminShow .addAdminForm{
+    border: 1px solid rgb(206, 206, 219);
+    box-shadow: 0px 0px 20px gray;
+    margin-right: 5%;
+    margin-left: 8%;
+    padding: 3%;
+ }
+
+.addAdminShow .addAdminTable{
+    padding: 4% 5% 10% 5%;
+}
+.addAdminShow .admin{
+    color: rgb(197, 55, 3);
+}

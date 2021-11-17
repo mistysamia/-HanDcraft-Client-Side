@@ -1,0 +1,70 @@
+.errorSection{
+    padding: 8% 0% 14% 0%;
+    display: flex;
+    justify-content: center;
+    
+}
+.errorImg{
+    height: 400px;
+    width: 75%;
+}
+.errorImg img{
+    height: 100%;
+    width: 100%;
+    padding: 0% 15%;
+}
+.errorTitle{
+    color: #524552;
+    font-size: 40px;
+    font-weight: bold;
+}
+.errorDetails{
+    font-size: 17px;
+    font-weight: 200;
+    padding: 0% 21%;
+}
+
+.errorSection .btnSection{
+    background-color: #ff5d22;
+    border: 1px solid #ff5d22;
+    color: aliceblue;
+    padding: 1.5% 3%;
+    font-size: medium;
+    border-radius: 7px;
+}
+
+/*********************************
+******* Media Query Starts ******* 
+**********************************/
+@media only screen and (max-width: 990px) {
+    .errorImg{
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .errorImg{
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .errorImg{
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .errorImg{
+        height: 210px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .errorImg{
+        height: 170px;
+    }
+}
+/*********************************
+******* Media Query Ends ******* 
+**********************************/
+
+

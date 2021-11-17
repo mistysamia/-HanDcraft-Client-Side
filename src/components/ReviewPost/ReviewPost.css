@@ -1,0 +1,52 @@
+.reviewPost{
+    margin: 10% 5%;
+    
+}
+.reviewPostSection{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-image: url('../../images/packageDetailsBG.jpg');
+    box-shadow: 0px 0px 20px gray;
+    padding: 5%;
+}
+.reviewPostSection .imgPart{
+    height: 60px;
+    width: 60px;    
+}
+.reviewPostSection .imgPart img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.reviewPostSection .reviewField{
+    text-align: start;
+    padding: 0% 4%;
+    color: rgb(29, 29, 32);
+}
+.reviewPostSection .textArea{
+    color: rgb(48, 48, 48);
+    width: 400px;
+}
+
+@media only screen and (max-width: 710px) {
+    .reviewPostSection .textArea{
+        color: rgb(48, 48, 48);
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width: 530px) {
+    .reviewPostSection .textArea{
+        color: rgb(48, 48, 48);
+        width: 200px;
+    }  
+}
+
+@media only screen and (max-width: 355px) {
+    .reviewPostSection .textArea{
+        color: rgb(48, 48, 48);
+        width: 150px;
+    }  
+}

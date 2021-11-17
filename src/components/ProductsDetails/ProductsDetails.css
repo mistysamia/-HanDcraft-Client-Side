@@ -1,0 +1,75 @@
+.productShow .eachProductShow{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 5% 7%;
+    margin-top: 11%;
+    /* background-color: #f1f2f4; */
+    background-image: url('../../images/packageDetailsBG.jpg');
+    box-shadow: 0px 0px 20px rgb(219, 217, 221);
+    color: #524552;
+}
+.productShow .productShowImg{
+ padding: 5%;
+} 
+.productShowImg .productShowImgPart{
+    height: 400px;
+}
+.productShowImg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+.productShow .productShowDetails{
+    text-align: start;
+    padding: 5%;
+}
+
+.productShow  .productShowDetails p{
+    font-size: 15px;
+}
+
+.productShow  .productShowDetails .stockout{
+    color: brown;
+    font-size: 19px;
+}
+.productShow  .productShowDetails .instock{
+    color: rgb(27, 175, 7);
+    font-size: 19px;
+}
+.productShow .btnSection{
+    background-color: #ff5d22;
+    color: aliceblue;
+    border: 1.5px solid #ff5d22;
+    padding: 2% 9%;
+    font-size: small;
+    border-radius: 7px;
+}
+.productShow .btnSection:hover{
+    background-color: #f1f2f4;
+    border: 1px solid #ff5d22;
+    color: #ff5d22;
+}
+
+.productShow .cart{
+    font-size: 22px;
+    padding-right: 3%;
+}
+
+@media only screen and (max-width: 770px) {
+    .productShow .eachProductShow{ 
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width: 450px) {
+    .productShowImg .productShowImgPart{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .productShowImg .productShowImgPart{
+        height: 250px;
+    }
+}
+
+
+

@@ -1,0 +1,43 @@
+.eachProducts{
+    padding: 3%;
+    color: #524552;
+}
+.eachProducts .eachProductDisplay{
+    box-shadow: 0px 0px 20px rgb(172, 163, 163);
+    background-color: #f5eef5;
+    border-radius: 7px;
+}
+.eachProducts .productName{
+    height: 50px;
+}
+.eachProducts .eachProductImg{
+     height: 360px;
+     width: 100%;
+     border-radius: 7px;
+}
+.eachProducts .eachProductImg img{
+    height: 100%;
+    width: 100%;
+    border-radius:  7px 7px 0px 0px;
+}
+.eachProductDisplayDetails{
+    padding: 3% 6%;
+}
+.eachProducts .instock{
+    margin-top: -6%;
+    margin-bottom: 0%;
+    color: rgb(27, 175, 7);
+}
+.eachProducts .outstock{
+    margin-top: -6%;
+    margin-bottom: 0%;
+    color: rgb(255, 0, 0);
+}
+.eachProducts .btnSectionDetails{
+    background-color: #ff5d22;
+    color: aliceblue;
+    border: 1.5px solid #ff5d22;
+    padding: 2% 35%;
+    font-size: small;
+    border-radius: 7px;
+}

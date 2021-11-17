@@ -1,0 +1,263 @@
+.loginRegister{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: -10%;
+    color: rgb(129, 129, 125);
+}
+
+.loginRegister .designPart{
+   background-color: #2f2f2f; 
+   padding: 40% 0%;
+}
+
+.loginRegister .designPart{
+    color: rgb(189, 176, 0);
+}
+.loginRegister .designPart .title{
+    color: rgb(182, 214, 106);
+}
+.loginRegister .designPart .titleDay{
+    color: rgb(245, 77, 10);
+}
+
+.loginRegister .loginResSection{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: rgb(129, 129, 125);
+    background-color: rgb(245, 245, 237);
+    box-shadow: 0px 0px 20px rgb(196, 247, 181);
+}
+
+.loginRegister .loginResPart{
+    padding: 5% 0%;
+    margin: 8% 0%;
+}
+
+
+
+
+
+.loginRegister .user-box {
+    position: relative;
+  }
+  
+  .loginRegister .user-box input {
+    width: 300px;
+    padding: 10px 10%;
+    font-size: 16px;
+    color: rgb(129, 129, 125);
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid rgb(129, 129, 125);
+    outline: none;
+    background: transparent;
+  }
+  .loginRegister .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(129, 129, 125);
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .loginRegister .user-box input:focus ~ label,
+  .loginRegister .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: rgb(129, 129, 125);
+    font-size: 12px;
+  }
+
+
+
+/* Animation */
+.loginRegister .squares{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.loginRegister .squares li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 15s linear infinite;
+    bottom: -150px;
+}
+
+.loginRegister .squares li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+.loginRegister .squares li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+.loginRegister .squares li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+.loginRegister .squares li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+.loginRegister .squares li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+.loginRegister .squares li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+.loginRegister .squares li:nth-child(7){
+    left: 24%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+.loginRegister .squares li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+.loginRegister .squares li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+.loginRegister .squares li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+.loginRegister .squares li:nth-child(11){
+    left: 5%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 38s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-1000px) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100% {
+        transform: translateY(0) rotate(720deg);
+        opacity: 0;
+        border-radius: 15%;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .loginRegister {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .loginRegister .squares{
+        width: 100%;
+    }
+}
+  
+
+  .loginRegister .btnSection{
+    width: 330px;
+    height: auto;
+    color: white !important;
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 25px;
+    background-color: rgb(247, 179, 52);
+    border:1px solid rgb(247, 179, 52);
+    margin-top: -3%;
+}
+  
+.loginRegister  .box {
+    width: 300px;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+.loginRegister .box label {
+    font-size: 20px;
+    color: #4d4d4d;
+    position: absolute;
+    z-index: 10;
+    padding-left: 50px;
+    cursor: pointer;
+}
+.loginRegister .box input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+.loginRegister .box input:checked ~ .check {
+    border-color: #00ea90;
+    box-shadow: 0px 0px 0px 15px #00ea90 inset;
+}
+.box input:checked ~ .check::after {
+    opacity: 1;
+    transform: scale(1);
+}
+.loginRegister .box .check {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 100px;
+    background-color: #fff;
+    border: 2px solid #00ea90;
+    box-shadow: 0px 0px 0px 0px #00ea90 inset;
+    transition: all 0.15s cubic-bezier(0, 1.05, 0.72, 1.07);
+}
+.loginRegister .box .check::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 4;
+    position: absolute;
+    transform: scale(0);
+    background-size: 50%;
+    background-image: url('https://s6.picofile.com/d/8392306668/bacc888c-bed7-41a9-bf24-f6ff0718f471/checkmark.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-delay: 0.2s !important;
+    transition: all 0.25s cubic-bezier(0, 1.05, 0.72, 1.07);
+}

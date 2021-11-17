@@ -1,0 +1,179 @@
+.orderShow .eachOrderShow{
+
+    padding: 5% 4%;
+    margin-top: 5%;
+    background-image: url('../../images/packageDetailsBG.jpg');
+    box-shadow: 0px 0px 20px rgb(219, 217, 221);
+    color: #524552;
+ }
+
+ .orderShow .OrderTitle .title{
+    color: #ff5d22;
+ }
+
+ .orderShow .OrderTitle  p{
+    color: rgb(255, 0, 0); 
+    font-family: "Arial";
+    font-size: 20px;
+    margin: 1% 0% 7% 8%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 20em;
+    animation: type 8s steps(60, end) infinite; 
+}
+
+@keyframes type{ 
+   from { 
+        width: 0em; 
+        } 
+}
+.orderDetailsShow{
+    border: 1px solid rgb(206, 206, 219);
+      box-shadow: 0px 0px 20px gray;
+    margin:15% 0% 0% 0% ;
+  
+    padding: 3%;
+}
+
+.orderImgPart{
+    height: 160px;
+}
+.orderImgPart img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+
+}
+
+.orderDetailsShow p{
+    font-size: 18px;
+}
+.orderDetailsShow h5{
+    color: rgb(17, 0, 255);
+}
+
+.orderShow .btnSection{
+    background-color: #ff5d22;
+    color: aliceblue;
+    border: 1.5px solid #ff5d22;
+    padding: 1.3% 5%;
+    font-size: large;
+    border-radius: 7px;
+   
+}
+.orderShow .btnSection:hover{
+    background-color: #f1f2f4;
+    border: 1.5px solid #ff5d22;
+    color: #ff5d22;
+}
+
+
+.orderShow  .cart{
+    border-left: 1px solid rgb(175, 168, 168);
+    padding: 2%;
+}
+.orderShow  .cartDetails{
+
+    padding-left: 7%;
+}
+.orderShow  .cartDetails .price{
+ 
+    padding-left: 25%;
+}
+.orderShow  .alert{
+    display: none;
+}
+
+
+
+.orderShow  .rad-label {
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    padding: 14px 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .orderShow  .rad-label:hover,
+  .orderShow  .rad-label:focus-within {
+    background: rgba(148, 9, 9, 0.14);
+  }
+  
+  .orderShow  .rad-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  .orderShow  .rad-design {
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    background: linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%));
+    position: relative;
+  }
+  
+  .orderShow  .rad-design::before {
+    content: '';
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: hsl(0, 0%, 90%);
+    transform: scale(1.1);
+    transition: .3s;
+  }
+  
+  .orderShow  .rad-input:checked+.rad-design::before {
+    transform: scale(0);
+  }
+  
+  .orderShow  .rad-text {
+    color: hsl(0, 0%, 60%);
+    margin-left: 14px;
+    font-size: 18px;
+    transition: .3s;
+  }
+  
+  .orderShow  .rad-input:checked~.rad-text {
+    color: hsl(0, 0%, 40%);
+  }
+  
+  .orderShow .abs-site-link {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    color: hsla(0, 0%, 0%, .5);
+    font-size: 16px;
+  }
+
+
+@media only screen and (max-width: 1000px) {
+    .orderShow .OrderTitle  p{
+        font-size: 15px;
+        width: 20em;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .orderShow .OrderTitle  p{
+        font-size: 13px;
+        width: 20em;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .orderShow .OrderTitle  p{
+        font-size: 16px;
+        width: 20em;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .packageShowImg .packageShowImgPart{
+        height: 250px;
+    }
+} 

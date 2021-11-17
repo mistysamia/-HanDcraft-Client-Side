@@ -1,0 +1,29 @@
+.eachReviewDisplay{
+    border: 1px solid rgb(211, 211, 211);
+    padding: 5%;
+    margin: 5% 7%;
+    box-shadow: 0px 0px 20px gray;
+}
+.eachReviewDisplay .imgSection{
+   height: 60px;
+   width: 60px;
+}
+
+.eachReviewDisplay .imgSection img{
+     height: 100%;
+     width: 100%;
+     border-radius: 50%;
+     border:2px solid gray;
+ }
+ .eachReviewDisplay .quotesIcon{
+    text-align: start;
+    margin-left: -80%;
+    font-size: 30px;
+}
+ .eachReviewDisplay .commentSection{
+   text-align: start;
+    height: 120px;
+    font-size: 14px;
+    font-style: italic;
+    color: rgb(14, 14, 29);
+ }

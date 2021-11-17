@@ -1,0 +1,27 @@
+.companyName .spanCode{
+    color: #ff5d22;
+}
+.companyName .companyImg{
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr); 
+}
+
+@media only screen and (max-width: 1170px) {
+    .companyName .companyImg{
+        grid-template-columns: repeat(3,1fr); 
+    }
+   
+}
+@media only screen and (max-width: 600px) {
+    .companyName .companyImg{
+        grid-template-columns: repeat(2,1fr); 
+    }
+   
+}
+@media only screen and (max-width: 400px) {
+    .companyName .companyImg{
+        grid-template-columns: repeat(1,1fr); 
+    }
+   
+}

@@ -1,0 +1,96 @@
+
+.eachMyOrder{
+    border-top:1px  solid rgba(238, 149, 201, 0.774);
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    padding: 3% 14%;
+    margin: 10% 0% 0% 0%;
+
+}
+
+.eachMyOrderSection .bookingDetails , .eachMyOrderSection .packageDetails{
+    margin: 0% 5%;
+    padding: 5%;
+    text-align: start;
+    background-color: rgba(248, 248, 248, 0.89);
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 4px;
+    height: 100%;
+    border-top: 2px solid blue;
+    
+}
+.eachMyOrderSection .bookingDetails {
+    height: 70%;
+}
+.eachMyOrderSection .bookingDetails .title , .eachMyOrderSection .packageDetails .title{
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px dashed rgb(175, 171, 171);
+    padding-bottom: 2%;
+}
+.packageDetailsDisplay{
+    display: grid;
+    grid-template-columns: 60% 40%; 
+}
+.eachMyOrderSection .packageDetailsDisplay .imgSection{
+    height: 180px;
+    width: 270px;
+}
+
+.eachMyOrderSection .packageDetailsDisplay .imgSection img{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 20px gray;
+}
+.eachMyOrderSection .packageName{
+    font-size: 19px;
+    color: blue;
+}
+.eachMyOrderSection .paymentSection{
+    border-left: 1px solid gainsboro;
+}
+
+.eachMyOrderSection .pending{
+    padding: 3% 0%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+@media only screen and (max-width: 1240px) {
+
+    .eachMyOrderSection .packageDetailsDisplay .imgSection{
+        width: 240px;
+    }
+}
+
+
+@media only screen and (max-width: 1170px) {
+    .packageDetailsDisplay{
+        grid-template-columns: repeat(1,1fr); 
+    }
+    .eachMyOrderSection .packageDetailsDisplay .imgSection{
+        width: 220px;
+    }
+
+}
+@media only screen and (max-width: 605px) {
+    .eachMyOrder{
+        grid-template-columns: repeat(1,1fr);  
+    }
+    .eachMyOrderSection .bookingDetails {
+        height: 100%;
+    }
+    .eachMyOrderSection .packageDetails {
+       margin-top: 10%;
+    }
+    .eachMyOrder{
+        margin: 10% 0% 3% 0%;
+    
+    }
+}
+@media only screen and (max-width: 460px) {
+    .eachMyOrderSection .packageDetailsDisplay .imgSection{
+        width: 200px;
+    }
+}

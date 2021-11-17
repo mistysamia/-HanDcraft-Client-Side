@@ -1,0 +1,9 @@
+.displayAllProductsImgPart{
+    width: 70px;
+    height: 60px;
+}
+
+.displayAllProductsImgPart img{
+    width: 100%;
+    height:100%;
+}

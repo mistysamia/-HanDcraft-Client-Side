@@ -1,0 +1,9 @@
+.addnewImgPart{
+    width: 70px;
+    height: 60px;
+}
+
+.addnewImgPart img{
+    width: 100%;
+    height:100%;
+}

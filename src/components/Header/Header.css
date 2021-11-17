@@ -1,0 +1,43 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.6); 
+    text-transform: uppercase;
+    color: #f2f5f7;
+    padding: 0% 10%;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar .navImg{
+    font-size: 38px;
+    color: rgb(157, 204, 3);
+}
+.navbar .navImg:hover{
+  color: rgb(189, 176, 0);
+}
+.navbar .navImg .title{
+  font-size: 21px;
+  color: rgb(182, 214, 106);
+}
+.navbar .navImg .title .titleDay{
+
+  color: rgb(245, 77, 10);
+}
+.userName{
+   font-size: 19px;
+
+}
+.userImg{
+  height: 60px;
+  width: 45px;
+  margin-left: 2%;
+}
+.userImg img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+.dp{
+  color: black;
+}

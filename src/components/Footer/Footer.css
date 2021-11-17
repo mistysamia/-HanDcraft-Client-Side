@@ -1,0 +1,27 @@
+.FooterPart{
+    background-color: rgb(51, 51, 56);
+    margin-bottom: -4%;
+    margin-top: 10%;
+}
+.FooterPart .footerRow{
+    border-bottom:1px solid white;
+}
+.FooterPart .eachFootercol{
+    margin-top: 4%;
+    color: white;
+    padding: 3%;
+    text-align: start;
+}
+.FooterPart h2 {
+    color: tomato;
+}
+.FooterPart .footerImgPart img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+.CopyRight h5{
+    text-align: center;
+    padding-bottom: 3%;
+    color: rgb(204, 216, 216);
+}

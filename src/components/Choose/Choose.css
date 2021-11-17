@@ -1,0 +1,115 @@
+.chooseSection{
+    display: grid;
+    grid-template-columns: 40% 60%; 
+    color: aliceblue;
+
+}
+
+.chooseSectionImg img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.chooseSectionDetails{
+    background-color: #524552;
+    padding: 9% 12% ;
+    text-align: start;
+  
+}
+.chooseSectionDetails .title{
+    color: #ff5d22;
+    font-weight: 400;
+}
+.chooseSection p{
+    font-size: 19px;
+    font-weight: 100;
+}
+.chooseSection .listSection {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.chooseSection  .eachList{
+    display: grid;
+    grid-template-columns: 20% 80%; 
+}
+
+/***********************************
+******** Details Part Starts ********
+************************************/
+.detailsSection{
+    padding: 2% 3%;
+}
+.detailsSection .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.detailsSection .details{
+    font-size: 15px;
+    font-weight: 400;
+}
+/**********************************
+******** Details Part Ends ********
+***********************************/
+
+
+/*********************************
+******** Icon Part Starts ********
+**********************************/
+
+.iconSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #352735;
+    border-radius: 50%;
+    height: 53%;
+    width: 90%;
+}
+.iconSection:hover {
+    background-color: #ff5d22;
+    transition:  background-color 0.5s;
+}
+.iconSection:hover h3{
+    color: aliceblue;
+    transition:  color 0.5s;
+}
+.iconSection h3{
+    color: #ff5d22;
+    padding: 2%;
+}
+
+
+
+/*******************************
+******** Icon Part Ends ********
+*******************************/
+
+
+
+
+/*********************************
+******* Media Query Starts ******* 
+**********************************/
+
+@media only screen and (max-width: 1000px) {
+    .chooseSection {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .chooseSection .listSection {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width: 300px) {
+    .chooseSection  .eachList{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/*********************************
+******* Media Query Ends ******* 
+**********************************/

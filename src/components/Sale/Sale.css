@@ -1,0 +1,26 @@
+.saleSection{
+    background-color: rgb(225, 230, 235);
+}
+.saleSection .sales{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.saleSection .eachImg{
+    height: 500px;
+}
+.saleSection .eachImg img{
+    height: 100%;
+    width:100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .saleSection .sales{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .saleSection .sales{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

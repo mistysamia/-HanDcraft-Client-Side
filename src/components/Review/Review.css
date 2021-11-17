@@ -1,0 +1,49 @@
+.reviewSectionDisplay{
+    padding:0% 7% ;
+    color:white;
+  
+}
+.reviewSection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.reviewSection .eachReviewImg{
+    height: 450px;
+    
+}
+.reviewSection .eachReviewImg img{
+    height: 100%;
+    width: 100%;
+}
+.reviewSectionDisplay .eachReviewSectionCard{
+    background-color: #524552;
+    margin: 0% 4%;
+    border: none;
+}
+.reviewSectionDisplay .eachReviewSectionCard hr{
+    margin-left: 23%;
+    height: 3px;
+}
+.reviewSectionDisplay .eachReviewSectionCard .reviewShow{
+    height: 90px;
+}
+.reviewSectionDisplay .eachReviewSectionCard .mainReviewSection{
+    padding: 5% 5%;
+}
+.imgPart{
+    height: 400px;
+}
+.imgPart img{
+    height: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .reviewSection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .reviewSection .eachReviewSection{
+     margin-top: 5%;
+    }
+}
